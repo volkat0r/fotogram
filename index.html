@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogram</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.svg">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body onload="renderImages()">
+    <header>
+        <div class="wrapper">
+            <div class="inner">
+                <div class="logo">
+                    <img src="./img/Fotogram_Logo.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="wrapper">
+            <div class="inner">
+                <section>
+                    <h1>cowART</h1>
+                    <div id="containerGallery"></div>
+                </section>
+            </div>
+        </div>
+        <dialog id="dialogImg">
+            <form id="dialogForm">
+                <span class="closeBtn">
+                    <button type="button" id="close" class="btn" onclick="closeDialog()">
+                        <img src="./img/close.svg">
+                    </button>
+                </span>
+                <div id="singleImage">
+                </div>
+                <span class="buttonWrapper">
+                    <button type="button" id="prevBtn" class="btn" onclick="prevImg()">
+                        <img src="./img/arrow_left.svg" alt="previous Image">
+                    </button>
+                    <span id="indexOfText"></span>
+                    <button type="button" id="nextBtn" class="btn" onclick="nextImg()">
+                        <img src="./img/arrow_right.svg" alt="next Image">
+                    </button>
+                </span>
+            </form>
+        </dialog>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="inner">
+                <div class="logo">
+                    <img src="./img/da_logo_white.svg">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
