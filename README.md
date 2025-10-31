@@ -1,5 +1,8 @@
 <h1>Modul 6 - Fotogram</h1>
 
+<p>Mit der Projektarbeit an Fotogram haben wir im Kurs zum ersten Mal Berührungspunkte mit JavaScript. <br>
+  Folgend erläutert die User-Story, welcheAnforderung das Projekt hat.</p>
+
 <h2>User Story</h2>
 <p>Als Besucher der Seite möchte ich die Fotogalerie in kleiner Vorschau sehen, damit ich mir einen schnellen Überblick über die Bilder verschaffen kann.</p>
 <ul>
